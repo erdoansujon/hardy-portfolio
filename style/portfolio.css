@@ -1,6 +1,38 @@
-.marry{
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.primary-color{
     color: #FD6E0A;
 }
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+}
+
 nav{
     display: flex;
+    justify-content: space-between;
+    
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+   
+}
+ul>li> a{
+    margin-right: 100px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
 }
