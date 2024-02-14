@@ -19,6 +19,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    /* margin-bottom: 200px; */
     
 }
 nav>ul{
@@ -31,8 +32,25 @@ ul>li> a{
     text-decoration: none;
     text-align: center;
     align-items: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
 }
 nav li{
     list-style: none;
     margin-left: 50px;
+}
+/* .nav-title{
+    color: black;} */
+
+/* Header Part  */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 30px;
+    display: flex;
+}
+.profile-pic{
+    width: 200px;
 }
