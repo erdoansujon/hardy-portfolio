@@ -1,5 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -53,4 +55,112 @@ nav li{
 }
 .profile-pic{
     width: 200px;
+}
+
+/* Manin Part Css */
+section{
+    
+}
+.about{
+    
+    background:#FFF8F3 ;
+    padding: 30px;
+    margin: 100px;
+}
+main{
+    max-width: 1140px;
+    text-align: center;
+}
+.about-pra{
+    font-size: 12px;
+    font-family: 300;
+    padding: 0px 20px 20px 20px;
+
+}
+.hardy-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.hardy-info-pra{
+    font-size: 12px;
+    font-weight: 200;
+}
+hardy-info-h{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.what{
+    margin: 100px;
+}
+.what-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.what-pra{
+    font-size: 18px;
+    
+}
+
+/* Skill Part  */
+.skil-part{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 30px;
+}
+.skill-js{
+    text-align: center;
+}
+.skill-headline{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-pragraph{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+.resume-description{
+    display: flex;
+}
+#footer-bg{
+    background: #FFF8F3;
+    padding: 50px;
+    
+}
+.footer-right-part{
+    display: flex;
+       
+   
+}
+.footer-box,textarea{
+    display: flex;
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 0;
+   
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+    width: 50%;
+}
+.input1{
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+.input2{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
 }
